@@ -1,10 +1,17 @@
 import React from 'react';
 
+import Container from './layout/Container';
+import Content from './layout/Content';
+import Sidebar from './layout/Sidebar';
+import Widgets from './layout/Widgets';
+
 export const App = () => {
   return (
-    <div>
-      <h1 className='bg-primary-base'>Twitter Clone</h1>
-    </div>
+    <Container>
+      <Sidebar />
+      <Content />
+      <Widgets />
+    </Container>
   );
 };
 

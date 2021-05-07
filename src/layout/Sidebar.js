@@ -57,7 +57,7 @@ const Sidebar = () => {
   }
 
   return (
-    <div className="flex flex-col justify-between px-2 w-72">
+    <div className="sticky top-0 h-screen flex flex-col justify-between px-2 w-72">
       <div>
         <div className="mt-1 mb-4 ml-1 hover:bg-gray-lightest flex items-center justify-center w-12 h-12 rounded-full transform transition-colors duration-200">
           <img src={twitterLogo} alt="twitter-logo" className="w-8 h-8" />
